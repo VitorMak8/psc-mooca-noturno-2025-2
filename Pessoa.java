@@ -1,27 +1,27 @@
 
 import javax.swing.JOptionPane;
 
-public class Pessoa {
+public class Pessoa{
     private String nome;
-    private Double idade;
-    private Double altura;
+    private double idade;
+    private double altura;
     private String email;
     private String cpf;
-    private Double peso;
+    private double peso;
     private String cnpj;
 
-    public void realizarlogin(){
 
+    public void realizarLogin(){
 
     }
 
-    public void realizarCadastro(){
-
+    public void realizarCAdastro(){
 
     }
 
     public void emitirNotar(){
 
+<<<<<<< HEAD
 
 
     }
@@ -30,6 +30,12 @@ public class Pessoa {
 
         JOptionPane.showMessageDialog(null, 
         "AAAAAAAAAAAAAAAAAAAAAAAAA");
+=======
+    }
+
+    public void chorar(){
+        JOptionPane.showMessageDialog(null, "AAAAAAAAAAAAAAAA");
+>>>>>>> 18ded91e7dbc4872fbf53a251a33271db43edba3
     }
 
     public String getNome() {
@@ -40,6 +46,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
+<<<<<<< HEAD
     public Double getIdade() {
         return idade;
     }
@@ -53,6 +60,21 @@ public class Pessoa {
     }
 
     public void setAltura(Double altura) {
+=======
+    public double getIdade() {
+        return idade;
+    }
+
+    public void setIdade(double idade) {
+        this.idade = idade;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+>>>>>>> 18ded91e7dbc4872fbf53a251a33271db43edba3
         this.altura = altura;
     }
 
@@ -72,11 +94,19 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
+<<<<<<< HEAD
     public Double getPeso() {
         return peso;
     }
 
     public void setPeso(Double peso) {
+=======
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+>>>>>>> 18ded91e7dbc4872fbf53a251a33271db43edba3
         this.peso = peso;
     }
 
@@ -87,4 +117,9 @@ public class Pessoa {
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 18ded91e7dbc4872fbf53a251a33271db43edba3
